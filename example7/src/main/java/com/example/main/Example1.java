@@ -12,12 +12,7 @@ public class Example1 {
      
         Vehicle veh1 = context.getBean(Vehicle.class);
         System.out.println("Primary Bean = " + veh1.getName());
-
+        veh1.printHello();
         context.close(); // @PreDestroy annotated method will be called
-//        veh1.printHello();
-
-
-
-
     }
 }
