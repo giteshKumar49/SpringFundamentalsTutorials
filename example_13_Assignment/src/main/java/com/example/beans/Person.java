@@ -8,9 +8,10 @@ import org.springframework.stereotype.Component;
 public class Person {
 
     private String name;
+    @Autowired
     private final Vehicle vehicle;
 
-    @Autowired
+
     public Person(Vehicle vehicle){
         this.vehicle = vehicle;
     }

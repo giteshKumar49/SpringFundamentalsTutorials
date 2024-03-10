@@ -18,7 +18,7 @@ public class Example13 {
         /*Vehicle vehicle = context.getBean(Vehicle.class);
         vehicle.getVehicleServices().playMusic();
         vehicle.getVehicleServices().moveVehicle();*/
-        person.getVehicle().getVehicleServices().playMusic();
-        person.getVehicle().getVehicleServices().moveVehicle();
+//        person.getVehicle().getVehicleServices().playMusic();
+//        person.getVehicle().getVehicleServices().moveVehicle();
     }
 }

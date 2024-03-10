@@ -10,6 +10,8 @@ public class VehicleServices {
 
     @Autowired
     private Speakers speakers;
+
+    @Autowired
     private Tyres tyres;
 
     public void playMusic(){
@@ -34,7 +36,7 @@ public class VehicleServices {
         return tyres;
     }
 
-    @Autowired
+//    @Autowired
     public void setTyres(Tyres tyres) {
         this.tyres = tyres;
     }
